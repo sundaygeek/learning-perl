@@ -1,0 +1,18 @@
+#!usr/bin/perl
+use 5.010;
+
+say "Please input a dir:";
+chomp(my $dir = <STDIN>);
+
+if($dir =~ /\A\s*\Z/){ 
+   chdir or die "cannot chdir to home directory: $!";
+}else{
+   chdir $dir or die "cannot chdir to '$dir': $!";
+}
+
+opendir DOT, "." or die "Can't opendir dot: $!";
+foreach $file (sort readdir DOT){
+   next if $file =~ /\A\./;
+   print "$file\n";
+}
+

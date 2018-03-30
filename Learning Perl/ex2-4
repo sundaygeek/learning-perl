@@ -1,0 +1,10 @@
+#!usr/bin/perl
+
+#$r=12.5;
+$r=<STDIN>;
+$two=<STDIN>;
+$s=$r*2*3.141592654;
+$multi=$r*$two;
+print "the lenth of circle :$s\n";
+print "the multi is:$multi\n ";
+print "hello,world!\n";

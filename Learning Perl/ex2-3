@@ -1,0 +1,11 @@
+#!usr/bin/perl
+
+#$r=12.5;
+$r=<STDIN>;
+if ($r<0){
+   print "the lenth of circle :0\n";
+}else{
+   $s=$r*2*3.141592654;
+   print "the lenth of circle :$s\n";
+}
+print "hello,world!\n";

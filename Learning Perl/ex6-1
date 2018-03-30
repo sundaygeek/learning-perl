@@ -1,0 +1,15 @@
+#!usr/bin/perl
+use 5.010;
+
+my %names=(
+  fred => 'flints',
+  dino => undef,
+  barney => 'rubble'
+);
+while(True){
+   chomp(my $key=<STDIN>);
+   if(exists $names{$key}){
+      print "That's $key $names{$key}\n";
+   }
+
+}

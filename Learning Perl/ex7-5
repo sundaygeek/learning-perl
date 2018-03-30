@@ -1,0 +1,8 @@
+#!usr/bin/perl
+use 5.010;
+
+while(<>){
+   if(/(\S)\1/){
+      print "the print is:$_";
+   }
+}

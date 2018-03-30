@@ -1,0 +1,22 @@
+总用量 52
+-rw-r--r--    1 root root 10453 5月  28 2016 080000001.pdb
+lrwxrwxrwx.   1 root root     7 6月  15 2015 bin -> usr/bin
+dr-xr-xr-x.   5 root root  4096 6月  15 2015 boot
+drwxr-xr-x   20 root root  3620 7月   7 09:22 dev
+drwxr-xr-x. 149 root root  8192 7月  31 15:04 etc
+drwxrwxrwx.  39 root root  4096 7月  20 16:12 home
+drwxrwxr-x.  13 root root  4096 1月  18 2017 ifs
+lrwxrwxrwx.   1 root root     7 6月  15 2015 lib -> usr/lib
+lrwxrwxrwx.   1 root root     9 6月  15 2015 lib64 -> usr/lib64
+drwxr-xr-x.   2 root root     6 6月  10 2014 media
+drwxr-xr-x.   2 root root     6 6月   7 09:00 mnt
+drwxr-xr-x.   3 root root    15 6月  15 2015 opt
+dr-xr-xr-x  544 root root     0 7月   7 01:52 proc
+dr-xr-x---.  24 root root  4096 8月   1 16:10 root
+drwxr-xr-x   37 root root  1280 8月   1 14:48 run
+lrwxrwxrwx.   1 root root     8 6月  15 2015 sbin -> usr/sbin
+drwxr-xr-x.   2 root root     6 6月  10 2014 srv
+dr-xr-xr-x   13 root root     0 7月   7 01:52 sys
+drwxrwxrwt.   9 root root  4096 9月   5 19:39 tmp
+drwxr-xr-x.  13 root root  4096 6月  15 2015 usr
+drwxr-xr-x.  21 root root  4096 7月   7 01:52 var

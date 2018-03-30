@@ -1,0 +1,10 @@
+#!usr/bin/perl
+
+print "input a string:";
+$r=<STDIN>;
+print "input a int:";
+chomp($two=<STDIN>);
+$multi=$r x $two;
+print $multi;
+print "the multi is:$multi\n ";
+print "hello,world!\n";

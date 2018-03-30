@@ -1,0 +1,14 @@
+#!usr/bin/perl
+use 5.010;
+
+while(<>){
+   chomp;
+   if(/(?<word>\b\w*a\b)(?<next>.{0,5})/){
+      print "Matched: |$`<$&>$'|\n";
+      print "'word' contains '$+{word}' \n";
+      print "'next' contains '$+{next}' \n";
+   }else{
+      print "No match: |$_|\n";
+   }
+   
+}

@@ -1,0 +1,10 @@
+#!usr/bin/perl
+use 5.010;
+
+say "Looking for my files that are readable and writable";
+die "No file names supplied!\n" unless @ARGV;
+
+foreach my $file(@ARGV){
+   say "$file is readable and writeable" if -o -r -w $file;
+}
+

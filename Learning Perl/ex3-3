@@ -1,0 +1,6 @@
+#!usr/bin/perl
+
+print "input some string, then press Ctro-D:\n";
+chomp(@lines=<STDIN>);
+@sorted=sort @lines;
+print "@sorted\n";

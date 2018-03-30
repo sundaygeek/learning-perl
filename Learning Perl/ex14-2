@@ -1,0 +1,24 @@
+#!usr/bin/perl
+use 5.010;
+
+my %last_name = qw{
+   fred flintstone Wilma Flintstone Barney Rubble
+   betty rubble Bamm-Bamm Rubble PEBBLES FLINTSTONE
+};
+
+while(($key,$value)=each %last_name){
+     print "$key => $value\n";
+}
+
+sub by_lastname{
+    "\L$last_name{$a}" cmp "\L$last_name{$b}"
+      or
+    "\L$a" cmp "\L$b";
+}
+
+my @keys=sort by_lastname keys %last_name;
+
+foreach(@keys){
+   print "$last_name{$_},$_\n";
+}
+

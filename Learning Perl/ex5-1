@@ -1,0 +1,9 @@
+#!usr/bin/perl
+use 5.010;
+
+#while(defined($line= <>)){
+ #  chomp($line);
+#   print "It was $line that I saw!\n";
+#}
+#
+print reverse <>;

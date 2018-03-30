@@ -1,0 +1,17 @@
+#!usr/bin/perl
+## Copyright (C) 2017 by Wanghao Truly
+use 5.010;
+
+while(1){
+print "Please input a number: ";
+chomp(my $num=<STDIN>);
+last if $num=~ /exit|quit|\A\s*\Z/;
+  
+given($num){
+   my $what = '';
+   when(not $_ % 3){ $what.=' Fizz'; continue}
+   when(not $_ % 5){ $what.=' Buzz'; continue}
+   when(not $_ % 7){ $what.=' Sausage';continue}
+   say "the answer is:$_ $what";
+}
+}

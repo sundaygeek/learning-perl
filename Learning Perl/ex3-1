@@ -1,0 +1,6 @@
+#!usr/bin/perl
+
+print "input some line,then press Ctro-D:\n";
+@lines=<STDIN>;
+@reverse_lines=reverse @lines;
+print @reverse_lines;

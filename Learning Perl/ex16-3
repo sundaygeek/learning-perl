@@ -1,0 +1,9 @@
+#!usr/bin/perl
+## Copyright (C) 2017 by Wanghao Truly
+use 5.010001;
+
+if('date' =~/\AS/){
+   print "go play!\n";
+}else{
+   print "get to work!\n";
+}

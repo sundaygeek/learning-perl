@@ -1,0 +1,7 @@
+#!usr/bin/perl
+use 5.010;
+
+use Module::CoreList;
+my %modules = %{$Module::CoreList::version{5.006}};
+
+print join "\n",sort keys %modules;

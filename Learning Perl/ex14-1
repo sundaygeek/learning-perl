@@ -1,0 +1,12 @@
+#!usr/bin/perl
+use 5.010;
+
+say "Please input several numbers: ";
+my @numbers;
+push @numbers,split while <>;
+
+@sortnumbers = sort {$a <=> $b} @numbers;
+foreach(@sortnumbers){
+   printf "%20g\n",$_;
+}
+
